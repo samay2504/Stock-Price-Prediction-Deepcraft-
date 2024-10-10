@@ -7,7 +7,7 @@ from sklearn.metrics import confusion_matrix, accuracy_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df = pd.read_csv('D:/Projects/Deepcraft/assignment-main/Trainee/time-series-prediction/stock_price.csv')
+df = pd.read_csv('stock_price.csv')
 
 df['Date'] = pd.to_datetime(df['Date'])
 
