@@ -50,7 +50,7 @@ class LSTMModel(nn.Module):
 input_size = 3  # Number of features
 hidden_size = 50  # Number of LSTM units
 num_layers = 1  # Number of LSTM layers
-num_epochs = 100  # Number of training epochs
+num_epochs = 200  # Number of training epochs
 learning_rate = 0.001  # Learning rate
 
 # Initialize the model, loss function, and optimizer
