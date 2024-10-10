@@ -22,45 +22,45 @@ SOFTWARE.
 
 
 
-### Presentation Materials:
+Presentation Materials:
 
-Here's a breakdown of the **Presentation** 
+Here's a breakdown of the Presentation
 
-#### 1. **Title Slide**
+1. Title Slide
    - Title: *Stock Price Prediction using LSTM and XGBoost*
    - Subtitle: *A Comparative Study of Machine Learning Models for Time Series Forecasting*
 
-#### 2. **Background**
+2. Background
    - Discuss the importance of stock price prediction.
    - Challenges: Complexity of time series data, market volatility, and finding the right model.
 
-#### 3. **Data Analysis Results**
+3. Data Analysis Results
    - Mention the results of the EDA. Highlight trends, seasonality, and identified missing values.
    - Data preprocessing steps taken.
 
-#### 4. **Technical Overview**
+4. Technical Overview
    - LSTM model: Why it was chosen for handling sequential data.
    - XGBoost: Chosen for its efficiency in handling large datasets.
    - Mention the dropout and other regularization techniques used in LSTM.
 
-#### 5. **Evaluation Metrics**
+5. Evaluation Metrics
    - Metrics: Accuracy, Mean Squared Error (MSE), training time.
    - LSTM: Better accuracy but slower training.
    - XGBoost: Faster training, suitable for lower computation resources.
 
-#### 6. **Verification Content**
+6. Verification Content
    - Hypothesis 1: Using LSTM will provide the most accurate predictions over long-term training.
    - Hypothesis 2: XGBoost will give comparable results in fewer boosting rounds.
 
-#### 7. **Verification Result 1**
+7. Verification Result 1
    - Results of LSTM: Show performance over 200 epochs.
    - Highlight MSE, loss reduction, and final accuracy.
 
-#### 8. **Verification Result 2**
+8. Verification Result 2
    - Results of XGBoost: Faster convergence with similar accuracy.
    - Show performance with 100 boosting rounds.
 
-#### 9. **Summary**
+9. Summary
    - LSTM: Suitable for more complex and longer sequences, but requires more time and computation.
    - XGBoost: Effective for faster predictions with less computational demand.
    - Future work: Exploring other models (ARIMA, Prophet, LightGBM, Transformers) and hyperparameter tuning for even better performance.
