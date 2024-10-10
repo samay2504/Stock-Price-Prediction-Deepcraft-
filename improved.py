@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv('D:/Projects/Deepcraft/assignment-main/Trainee/time-series-prediction/stock_price.csv')
+df = pd.read_csv('stock_price.csv')
 
 # Convert 'Date' column to datetime for better time-series handling
 df['Date'] = pd.to_datetime(df['Date'])
