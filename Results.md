@@ -14,7 +14,7 @@ Data types and missing values:
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 9202 entries, 0 to 9201
 Data columns (total 7 columns):
- #   Column            Non-Null   Count      Dtype         
+###  Column            Non-Null   Count      Dtype         
 ---  ------            ---------  -----      -----         
  0.   Date              9202    non-null   datetime64[ns]
  1.   Closing Price     9202    non-null   float64       
@@ -109,13 +109,13 @@ Missing values in each column:
 - Epoch [180/200], Loss: 0.0018
 - Epoch [190/200], Loss: 0.0014
 - Epoch [200/200], Loss: 0.0010
-### *Mean Squared Error: 87.95034663283606*
+#### *Mean Squared Error: 87.95034663283606*
 
 ![200](https://github.com/user-attachments/assets/4afdf413-ee81-45d2-87b8-8f395e42f24d)
 
 `run improved.py`
 ## Output
-*Mean Squared Error (XGBoost): 654.4639729729596*
+#### *Mean Squared Error (XGBoost): 654.4639729729596*
 
 ![improved](https://github.com/user-attachments/assets/7c024336-6512-4b3b-ade4-228fe131f770)
 
