@@ -1,5 +1,5 @@
 `run eda.py`
-### Output
+## Output
 *First 5 rows of the dataset*
     Date            Closing Price   Opening Price   Low Price   Volume       Rate of Change %
 - 2024-08-01          156.3          159.3  ...      156.1      79.15M           -2.56%
@@ -55,12 +55,12 @@ Missing values in each column:
 ![Figure_3](https://github.com/user-attachments/assets/22eb47c2-c7d6-4048-af6b-ee105de02838)
 
 `run data_prep.py`
-### Output
-# Training data shape: torch.Size([7361, 1, 3])
-# Test data shape: torch.Size([1841, 1, 3])
+## Output
+#### Training data shape: torch.Size([7361, 1, 3])
+#### Test data shape: torch.Size([1841, 1, 3])
 
 `run model.py`
-### Output
+## Output
 - Epoch [10/200], Loss: 0.0312
 - Epoch [20/200], Loss: 0.0231
 - Epoch [30/200], Loss: 0.0182
@@ -81,14 +81,14 @@ Missing values in each column:
 - Epoch [180/200], Loss: 0.0000
 - Epoch [190/200], Loss: 0.0000
 - Epoch [200/200], Loss: 0.0000
-# *Confusion Matrix:*
+### *Confusion Matrix:*
  [[2761]]
-# **Accuracy:** 100.00%
+### **Accuracy:** 100.00%
 
 ![2761](https://github.com/user-attachments/assets/bed99b4c-5166-4e44-b3f9-f999663285a7)
 
 `run evalve.py`
-### Output
+## Output
 - Epoch [10/200], Loss: 0.1062
 - Epoch [20/200], Loss: 0.0806
 - Epoch [30/200], Loss: 0.0582
@@ -109,12 +109,12 @@ Missing values in each column:
 - Epoch [180/200], Loss: 0.0018
 - Epoch [190/200], Loss: 0.0014
 - Epoch [200/200], Loss: 0.0010
-# *Mean Squared Error: 87.95034663283606*
+### *Mean Squared Error: 87.95034663283606*
 
 ![200](https://github.com/user-attachments/assets/4afdf413-ee81-45d2-87b8-8f395e42f24d)
 
 `run improved.py`
-### Output
+## Output
 *Mean Squared Error (XGBoost): 654.4639729729596*
 
 ![improved](https://github.com/user-attachments/assets/7c024336-6512-4b3b-ade4-228fe131f770)
