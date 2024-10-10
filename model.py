@@ -31,7 +31,7 @@ y_tensor = torch.from_numpy(y_scaled).float()
 X_tensor = X_tensor.unsqueeze(1)  # Add sequence length of 1
 
 # Splitting the dataset into training and testing sets
-train_size = int(len(X_tensor) * 0.7)  # 80% for training
+train_size = int(len(X_tensor) * 0.7)  # 70% for training
 X_train, X_test = X_tensor[:train_size], X_tensor[train_size:]
 y_train, y_test = y_tensor[:train_size], y_tensor[train_size:]
 
