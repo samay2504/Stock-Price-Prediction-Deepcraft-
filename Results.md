@@ -56,8 +56,8 @@ Missing values in each column:
 
 `run data_prep.py`
 ### Output
-Training data shape: torch.Size([7361, 1, 3])
-Test data shape: torch.Size([1841, 1, 3])
+# Training data shape: torch.Size([7361, 1, 3])
+# Test data shape: torch.Size([1841, 1, 3])
 
 `run model.py`
 ### Output
@@ -81,9 +81,9 @@ Test data shape: torch.Size([1841, 1, 3])
 - Epoch [180/200], Loss: 0.0000
 - Epoch [190/200], Loss: 0.0000
 - Epoch [200/200], Loss: 0.0000
-*Confusion Matrix:*
-[[2761]]
-**Accuracy:** 100.00%
+# *Confusion Matrix:*
+ [[2761]]
+# **Accuracy:** 100.00%
 
 ![2761](https://github.com/user-attachments/assets/bed99b4c-5166-4e44-b3f9-f999663285a7)
 
@@ -109,7 +109,7 @@ Test data shape: torch.Size([1841, 1, 3])
 - Epoch [180/200], Loss: 0.0018
 - Epoch [190/200], Loss: 0.0014
 - Epoch [200/200], Loss: 0.0010
-*Mean Squared Error: 87.95034663283606*
+# *Mean Squared Error: 87.95034663283606*
 
 ![200](https://github.com/user-attachments/assets/4afdf413-ee81-45d2-87b8-8f395e42f24d)
 
