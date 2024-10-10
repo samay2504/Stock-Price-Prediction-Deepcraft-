@@ -37,7 +37,7 @@ Data file:
 ## Installation and Requirements
 
 To run the project, install the necessary Python packages:
-pip install -r requirements.txt
+ - `pip install -r Requirements.txt`
 
 ### Exploratory Data Analysis (EDA): 
 Use the *eda.py* script for data visualization.
